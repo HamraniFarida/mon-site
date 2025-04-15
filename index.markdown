@@ -2,7 +2,7 @@
 layout: default
 title: "Accueil"
 ---
-![Ma photo](/assets/images/photo.jpg){: style="width:150px; border-radius: 10px; float: right; margin: 10px;"}
+<img src="{{ site.baseurl }}/assets/photo.jpg">{: style="width:150px; border-radius: 10px; float: right; margin: 10px;"}
 ## **FARIDA HAMRANI**
 # **Docteure en mathématiques** 
 [hamrani@insa-toulouse.fr](mailto:hamrani@insa-toulouse.fr)
