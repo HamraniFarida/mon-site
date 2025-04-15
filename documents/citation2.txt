@@ -1,0 +1,26 @@
+@article{Bayarassou02072024,
+author = {N. Bayarassou and F. Hamrani and E. Ould Saïd and},
+title = {Nonparametric relative error estimation of the regression function for left truncated and right censored time series data},
+journal = {Journal of Nonparametric Statistics},
+volume = {36},
+number = {3},
+pages = {706--729},
+year = {2024},
+publisher = {Taylor \& Francis},
+doi = {10.1080/10485252.2023.2241572},
+URL = { 
+    
+        https://doi.org/10.1080/10485252.2023.2241572
+    
+    
+
+},
+eprint = { 
+    
+        https://doi.org/10.1080/10485252.2023.2241572
+    
+    
+
+}
+
+}

@@ -1,0 +1,14 @@
+---
+layout: page
+title: "Publications"
+permalink: /publications/
+---
+
+# Publications
+## Articles publiés
+- **2023** : Nonparametric relative error estimation of the regression function (Journal of Nonparametric Statistics)
+- **2017** : Convergence rate of the kernel regression estimator (Journal of Nonparametric Statistics)
+
+## Projets en cours
+- **Asymptotic normality of Nonparametric relative regression estimator**
+- **Convergence rate of Nonparametric relative regression estimator**
