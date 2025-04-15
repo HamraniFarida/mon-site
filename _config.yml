@@ -2,11 +2,16 @@ title: "Farida Hamrani"
 description: "Site personnel pour partager mes recherches, publications et enseignements."
 author: "Farida Hamrani"
 email: "farida.h1989@gmail.com"
-baseurl: "/mon-site"
-url: "https://hamranifarida.github.io"
+baseurl: "/mon-site"  # Doit correspondre exactement au nom de votre dépôt
+url: "https://hamranifarida.github.io"  # Sans "/mon-site" à la fin
 theme: minima
+
+# Plugins requis pour GitHub Pages
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+
+# Correctif pour la navigation (ajoutez des slash finaux)
 nav:
   - title: "Accueil"
     url: "/"
