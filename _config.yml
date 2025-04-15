@@ -1,20 +1,22 @@
-title: ""
+title: "Farida Hamrani"
 description: "Site personnel pour partager mes recherches, publications et enseignements."
 author: "Farida Hamrani"
 email: "farida.h1989@gmail.com"
 baseurl: "/mon-site"
 url: "https://hamranifarida.github.io"
 theme: minima
+plugins:
+  - jekyll-feed
 nav:
   - title: "Accueil"
     url: "/"
   - title: "Biographie"
-    url: "/biographie"
+    url: "/biographie/"
   - title: "Publications"
-    url: "/publications"
+    url: "/publications/"
   - title: "Enseignement"
-    url: "/enseignement"
+    url: "/enseignement/"
   - title: "Projets"
-    url: "/projets"
+    url: "/projets/"
   - title: "Contact"
-    url: "/contact"
+    url: "/contact/"
