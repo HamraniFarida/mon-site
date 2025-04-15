@@ -2,7 +2,7 @@
 layout: default
 title: "Accueil"
 ---
-![Ma photo](/assets/images/photo.jpg){: style="width:150px; border-radius: 10px; float: right; margin: 10px;"}
+![Description]({{ "/assets/images/photo.jpg" | relative_url }}){: style="width:150px; border-radius: 10px; float: right; margin: 10px;"}
 ## **FARIDA HAMRANI**
 # **Docteure en mathématiques** 
 [hamrani@insa-toulouse.fr](mailto:hamrani@insa-toulouse.fr)
@@ -12,11 +12,11 @@ Je suis actuellement **Attachée Temporaire d'Enseignement et de Recherche (ATER
 
 Avant de rejoindre la France, j'ai exercé en tant que **Maître de Conférences (MCF) en Algérie**, de 2018 à 2022, à l'[Université des Sciences et de la Technologie Houari Boumediene](https://www.usthb.dz/), puis, de 2022 à 2023, à l'[Université Mouloud Mammeri de Tizi Ouzou](http://www.ummto.dz). Ces expériences m'ont permis de développer une solide expertise en enseignement et en recherche.
 
-J'ai effectué ma thèse à l'**Université des Sciences et Technologie Houari Boumediene**, sous la direction de **Zohra GUESSOUM**. Le manuscrit de ma thèse est disponible [ici](/documents/thèse.pdf), et les slides de ma présentation [là](/documents/exposé.pdf).
+J'ai effectué ma thèse à l'**Université des Sciences et Technologie Houari Boumediene**, sous la direction de **Zohra GUESSOUM**. Le manuscrit de ma thèse est disponible [ici]({{ "/documents/thèse.pdf" | relative_url }}), et les slides de ma présentation [là]({{" /documents/exposé.pdf" | relative_url }}).
 
 <br>
 
-Mon CV court est disponible [ici](/documents/CVshort.pdf).
+Mon CV court est disponible [ici]({{" /documents/CVshort.pdf"| relative_url }}).
 
 
 - [Recherche](#recherche)
@@ -52,12 +52,12 @@ Ils portent notamment sur l’étude des propriétés asymptotiques des estimate
 - **Bayarassou, N., Hamrani, F., Ould Said, E.** (2023).  
   *Nonparametric relative error estimation of the regression function for left truncated and right censored time series data*.  
   *Journal of Nonparametric Statistics*, **36**(3), 706–729.
-  📄 [PDF](/documents/Publication1.pdf) ❝  [Citation BibTeX](/documents/citation1.txt)
+  📄 [PDF]({{ "/documents/Publication1.pdf" | relative_url }}) ❝  [Citation BibTeX]({{ "/documents/citation1.txt" | relative_url }})
 
 - **Guessoum, Z., Hamrani, F.** (2017).  
   *Convergence rate of the kernel regression estimator for associated and truncated data*.  
   *Journal of Nonparametric Statistics*, **29**(2), 425–446.
-  📄 [PDF](/documents/Publication2.pdf) ❝  [Citation BibTeX](/documents/citation1.txt)
+  📄 [PDF]({{ "/documents/Publication2.pdf" | relative_url }}) ❝  [Citation BibTeX]({{ "/documents/citation1.txt" | relative_url }})
 
 ---
 
