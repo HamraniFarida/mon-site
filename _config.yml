@@ -1,23 +1,45 @@
 # _config.yml
-title: "Farida Hamrani"
-url: "https://hamranifarida.github.io"
-baseurl: "/mon-site"
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+# Configuration de base REQUISE
+title: "Farida Hamrani - Docteure en mathématiques"
+description: "Site académique de Farida Hamrani, ATER à l'INSA Toulouse, spécialisée en statistique non paramétrique"
+baseurl: "/mon-site"     # Doit correspondre exactement au nom de votre dépôt
+url: "https://hamranifarida.github.io"  # Sans le /mon-site à la fin
 
-# Correctif pour la navigation (ajoutez des slash finaux)
-nav:
-  - title: "Accueil"
-    url: "/"
-  - title: "Biographie"
-    url: "/biographie/"
-  - title: "Publications"
-    url: "/publications/"
-  - title: "Enseignement"
-    url: "/enseignement/"
-  - title: "Projets"
-    url: "/projets/"
-  - title: "Contact"
-    url: "/contact/"
+# Configuration technique
+theme: minima  # Thème par défaut de Jekyll
+plugins:
+  - jekyll-feed  # Plugin requis pour GitHub Pages
+  - jekyll-seo-tag  # Pour le référencement
+  - jekyll-relative-links  # Pour gérer les liens relatifs
+
+# Options d'affichage
+markdown: kramdown  # Moteur de Markdown
+permalink: pretty   # Structure des URLs
+highlighter: rouge  # Coloration syntaxique
+
+# Paramètres personnalisés
+author:
+  name: "Farida Hamrani"
+  email: "hamrani@insa-toulouse.fr"
+  position: "ATER en mathématiques"
+  institution: "INSA Toulouse"
+
+# Paramètres pour GitHub Pages
+repository: "hamranifarida/mon-site"
+github:
+  metadata: true
+
+# Paramètres d'affichage
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      author: "Farida Hamrani"
+
+# Exclusions (optimisation build)
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
